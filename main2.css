@@ -1,0 +1,132 @@
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/1f/38/2e/1f382ea6576ce0993cd40d68d3d40e19.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+  }
+
+header {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+}
+
+nav {
+  background-color: #333;
+  font-family: Arial;
+  float: left;
+  width: 200px;
+  height: 500px;
+  border: white solid 1px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #333;
+}
+
+ol li {
+  display: block;
+  color: white;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+  border: black solid 1px;
+
+}
+
+ol li a:hover {
+  background-color: white;
+  text-decoration: line-through;
+  color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main {
+  background-color: grey;
+  opacity: 0.8;
+  width: 75%;
+  height: 500px;
+  margin: 10px;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+article {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  height: 200px;
+  background: black;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+article aside {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 70px;
+  padding: 5px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+figcaption {
+  /*float: left;*/
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  width: 150px;
+}
+
+article p {
+  box-sizing: border-box;
+  float: right;
+  width: 70%;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+article h2 {
+  box-sizing: border-box;
+  float: right;
+  width: 70%;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+footer {
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    font-family: Arial;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
